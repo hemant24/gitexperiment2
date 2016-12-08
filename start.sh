@@ -20,6 +20,6 @@ echo $ADD
 
 
 echo 'To remote location '
-HOST_ADD='$'$ADD
+eval HOST_ADD='$'$ADD
 echo $HOST_ADD
 
